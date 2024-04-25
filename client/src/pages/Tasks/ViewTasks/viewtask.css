@@ -1,0 +1,141 @@
+.view_task_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  gap: 10px;
+  /* border: 1px rgb(45, 17, 226) solid; */
+}
+.available_tasks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 17px 0;
+  color: rgba(0, 0, 0, 0.797);
+}
+.filter_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.filter_section input {
+  margin-left: 10px;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 0 8px;
+}
+.select_priority {
+  margin-left: 10px;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 0 8px;
+}
+.filterInfo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.task_card {
+  margin: 5px;
+  padding: 15px 10px;
+  border: 1px solid #cccccc68;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  width: 300px;
+}
+
+.task_card:hover {
+  transform: translateY(-9px);
+  transition: 0.4s ease-in-out;
+}
+.task_title {
+  border-bottom: #333 1px solid;
+}
+.task_title {
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+}
+.date_created {
+  margin-top: 10px;
+}
+.date_created {
+  font-size: 16px;
+  font-weight: 300;
+  color: #333;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Due_date {
+  font-size: 16px;
+  font-weight: 300;
+  color: #333;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.priority {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.assigned_member {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.task_priority {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.task_status {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 850px) {
+  .filterInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .task_card {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .task_card {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .available_tasks {
+    font-size: 16px;
+  }
+  .filter_section {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .task_card {
+    width: 250px;
+  }
+}

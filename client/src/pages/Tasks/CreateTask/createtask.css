@@ -1,0 +1,91 @@
+.create_task_page {
+  min-height: 100vh;
+}
+
+.task_form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.task_title .task_description .task_assign_to .task_dueDate .task_priority {
+  color: #333;
+  font-size: 20px;
+  font-weight: 540;
+}
+
+.title_input {
+  height: 40px;
+  width: 100%;
+  font-size: 18px;
+  outline: none;
+  padding: 10px;
+}
+
+.description_input {
+  height: 100px;
+  width: 100%;
+  font-size: 18px;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  resize: none;
+}
+
+.check_member {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+.assignee {
+  color: white;
+}
+
+.dueDate_calender {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+.radio_task {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid #333;
+}
+.submit_task {
+  margin: 10px auto;
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 600;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.submit_task:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.7s;
+}

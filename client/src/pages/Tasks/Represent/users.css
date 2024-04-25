@@ -1,0 +1,33 @@
+.team_members_title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+.team_table {
+    margin: 0 auto;
+    width: 95%;
+    border-collapse: collapse;
+  }
+  
+  .team_table th,
+  .team_table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #333;
+  }
+  
+  .team_table th {
+    background-color: #f2f2f2;
+  }
+  
+  .team_table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .team_table tbody tr:hover {
+    background-color: #e6e6e6;
+  }
+  

@@ -1,0 +1,56 @@
+.updatetask {
+  margin: 10px auto;
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500;
+  width: 150px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.updatetask:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.7s;
+}
+
+.updateBTN {
+  display: flex;
+  justify-content: space-evenly;
+}
+.select_progress {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 450px) {
+  .registration_form input {
+    width: 100%;
+  }
+  .registration_form select {
+    width: 100%;
+  }
+  .registration_form option {
+    width: 100%;
+  }
+  .registration_form input[type="submit"] {
+    width: 100%;
+  }
+
+  .updatetask {
+    margin: 10px auto;
+    font-size: 17px;
+    font-weight: 300;
+    width: 110px;
+    padding: 7px;
+    border-radius: 3px;
+  }
+}
